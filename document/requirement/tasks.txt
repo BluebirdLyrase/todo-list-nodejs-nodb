@@ -1,0 +1,7 @@
+Endpoints
+
+GET /tasks: Retrieve all tasks.
+POST /tasks: Create a new task.
+GET /tasks/{id}: Retrieve a specific task by its ID.
+PATCH /tasks/{id}: Update an existing task detail.
+DELETE /tasks/{id}: Delete a task. 
