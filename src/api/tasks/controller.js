@@ -53,7 +53,7 @@ class TasksController {
       const isTaskExist = await Modal.checkTaskExist(req.payload.id);
       if (!isTaskExist) {
         return failed(res).clientError(
-          null,
+          undefined,
           `task id : ${req.payload.id} does not exist`
         );
       }
